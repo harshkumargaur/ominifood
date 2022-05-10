@@ -1,0 +1,148 @@
+/**********************************
+in media queries 1rem = 1em = 16px
+
+and don't use rem use em unit
+***********************************/
+
+@media (max-width:85em) {
+
+  html {
+    font-size: 62%;
+  }
+
+
+}
+
+@media (max-width:78em) {
+
+  html {
+    font-size: 61%;
+  }
+
+
+}
+
+@media (max-width:56em) {
+  html {
+    font-size: 58%;
+  }
+
+  .logo-img {
+    height: 2.0rem;
+
+  }
+
+  .heading-primary {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .delivered-meals {
+
+    gap: 1rem;
+  }
+
+  .delivered-imgs img {
+    width: 4rem;
+    border: 1px solid #e67e22;
+    border-radius: 50%;
+
+  }
+
+  .logos img {
+    height: 2rem;
+
+  }
+}
+
+@media (max-width:49em) {
+  html {
+    font-size: 48%;
+  }
+
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+
+    font-size: 1.5rem;
+
+  }
+
+  .feature-text {
+    /* color: #555555; */
+    font-size: 1.2rem;
+    /* line-height: 1.5; */
+  }
+
+  .cta-form select {
+    padding: .5rem 1rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 31em) {
+  .header {
+    display: none;
+  }
+
+  .nav-mobile-header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    background-color: #dee2e6;
+
+  }
+
+  .menu {
+    display: inline-block;
+    font-size: 3rem;
+    color: #868e96;
+    padding: .5rem;
+    border-radius: .3rem;
+  }
+
+  .menu:hover {
+    color: #495057;
+  }
+
+  .mob-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #dee2e6; */
+
+
+  }
+
+  .nav-list-mob {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    transition: visibility .3s;
+
+  }
+
+
+  .nav-link-mob {
+    color: #495057;
+    flex: 1 1 2rem;
+    font-size: 1.5rem;
+
+  }
+}
